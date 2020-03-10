@@ -1,15 +1,15 @@
 # -*- coding: utf-8 -*-
 
-"""Console script for vulcol."""
+"""Console script for col4Vulcan."""
 import sys
 import click
 
 
 @click.command()
 def main(args=None):
-    """Console script for vulcol."""
+    """Console script for col4Vulcan."""
     click.echo("Replace this message by putting your code into "
-               "vulcol.cli.main")
+               "col4Vulcan.cli.main")
     click.echo("See click documentation at http://click.pocoo.org/")
     return 0
 

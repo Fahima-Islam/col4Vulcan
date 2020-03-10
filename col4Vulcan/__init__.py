@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-"""Top-level package for vulcol."""
+"""Top-level package for col4Vulcan."""
 
 __author__ = """Fahima Islam"""
 __email__ = 'islamff@ornl.gov'
