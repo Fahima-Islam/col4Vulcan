@@ -1,21 +1,21 @@
 ======
-vulcol
+col4Vulcan
 ======
 
 
-.. image:: https://img.shields.io/pypi/v/vulcol.svg
-        :target: https://pypi.python.org/pypi/vulcol/vulcol
+.. image:: https://img.shields.io/pypi/v/col4Vulcan.svg
+        :target: https://pypi.python.org/pypi/col4Vulcan
 
-.. image:: https://img.shields.io/travis/fahima-islam/vulcol.svg
-        :target: https://travis-ci.org/fahima-islam/vulcol/vulcol
+.. image:: https://img.shields.io/travis/fahima-islam/col4Vulcan.svg
+        :target: https://travis-ci.org/fahima-islam/col4Vulcan
 
-.. image:: https://readthedocs.org/projects/vulcol/badge/?version=latest
-        :target: https://vulcol.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/col4Vulcan/badge/?version=latest
+        :target: https://col4Vulcan.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
-.. image:: https://pyup.io/repos/github/fahima-islam/vulcol/shield.svg
-     :target: https://pyup.io/repos/github/fahima-islam/vulcol/vulcol
+.. image:: https://pyup.io/repos/github/fahima-islam/col4Vulcan/shield.svg
+     :target: https://pyup.io/repos/github/fahima-islam/col4Vulcan
      :alt: Updates
 
 
@@ -24,7 +24,7 @@ simulation of Vulcan collimator
 
 
 * Free software: MIT license
-* Documentation: https://vulcol.readthedocs.io.
+* Documentation: https://col4Vulcan.readthedocs.io.
 
 
 Features

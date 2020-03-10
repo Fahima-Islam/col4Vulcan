@@ -1,0 +1,41 @@
+# Config file for automatic testing at travis-ci.org
+language: python
+dist: xenial
+python:
+  - 2.7
+
+env: PYTHONPATH=$PYTHONPATH:$TRAVIS_BUILD_DIR/tests
+
+before_install:
+  - wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh;
+  - bash miniconda.sh -b -p $HOME/miniconda
+  - export PATH="$HOME/miniconda/bin:$PATH"
+  - hash -r
+  - conda config --set always_yes yes --set changeps1 no
+
+install:
+  - conda create -q -n testenv python=$TRAVIS_PYTHON_VERSION pytest-cov
+  - conda install --yes -n testenv flake8;
+  - source activate testenv
+  - conda config --add channels conda-forge   # add conda channels
+  - conda config --add channels diffpy
+  - conda config --add channels mantid
+  - conda config --add channels mcvine
+  - conda install numpy
+  - conda install mantid-framework python=2
+  - conda install mcvine
+  - conda install scipy
+  - conda install shapely
+  - conda install matplotlib
+
+# Set display for tests involving matplotlib
+services:
+  - xvfb
+
+script:
+  - py.test --cov=col4Vulcan col4Vulcan tests
+  #- flake8
+
+notifications:
+  - on_success: never
+  - on_failure: never

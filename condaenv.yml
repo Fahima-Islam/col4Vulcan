@@ -1,0 +1,21 @@
+name: col4Vulcan
+
+channels:
+  - conda-forge
+  - omnia
+  - mcvine
+  - diffpy
+  - mantid
+
+dependencies:
+  - numpy
+  - scipy
+  - h5py
+  - lmfit
+  - sphinx
+  - sphinx_rtd_theme
+  - sphinxcontrib-bibtex
+  - matplotlib
+  - mcvine-core
+
+

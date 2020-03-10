@@ -1,0 +1,8 @@
+name: col4Vulcan
+
+dependencies:
+  - numpy
+  - scipy
+  - sphinx
+  - sphinx_rtd_theme
+  - matplotlib
