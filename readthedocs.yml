@@ -1,2 +1,2 @@
 conda:
-    file: condaenv.yml
+    file: condaenvrtd.yml
