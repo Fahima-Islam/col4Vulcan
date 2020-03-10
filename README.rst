@@ -9,8 +9,8 @@ col4Vulcan
 .. image:: https://img.shields.io/travis/fahima-islam/col4Vulcan.svg
         :target: https://travis-ci.org/fahima-islam/col4Vulcan
 
-.. image:: https://readthedocs.org/projects/col4Vulcan/badge/?version=latest
-        :target: https://col4Vulcan.readthedocs.io/en/latest/?badge=latest
+.. image:: https://readthedocs.org/projects/col4vulcan/badge/?version=latest
+        :target: https://col4vulcan.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
 
 
