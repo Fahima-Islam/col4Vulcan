@@ -9,7 +9,7 @@ if "%SPHINXBUILD%" == "" (
 )
 set SOURCEDIR=.
 set BUILDDIR=_build
-set SPHINXPROJ=vulcol
+set SPHINXPROJ=col4Vulcan
 
 if "%1" == "" goto help
 

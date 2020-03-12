@@ -2,6 +2,6 @@
 Usage
 =====
 
-To use vulcol in a project::
+To use col4Vulcan in a project::
 
-    import vulcol
+    import col4Vulcan
